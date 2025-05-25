@@ -1,0 +1,31 @@
+header{
+    background-color: rgb(8, 242, 102);
+     font-size: 30px;
+    color: black;
+}
+.container{
+    display: flex;
+}
+aside{
+    background-color: blueviolet;
+    height: 300px;
+    width: 150px;
+    font-size: 50px;
+    color: black;
+}
+nav{
+    background-color: rgb(235, 141, 27);
+}
+main{
+    background-color: brown;
+    height: 300px;
+    width: 75%;
+     font-size: 80px;
+    color: black;
+   
+}
+footer{
+    background-color: rgb(48, 11, 216);
+     font-size: 30px;
+    color: black;
+}
