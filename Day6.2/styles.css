@@ -9,3 +9,26 @@ h1{
 #p2{
     color: rgb(3, 101, 68);
 }
+
+div > p{
+    color: rgb(237, 136, 4);
+}
+
+div span{
+    color: red;
+}
+
+*{
+    margin: 20px;
+    padding:5px;
+}
+
+p:hover{
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid black;
+}
+
+p:first-child{
+    border: 2px solid black;
+}
