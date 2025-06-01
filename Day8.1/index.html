@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specifity and Castcade</title>
+    <style>
+        #aj {
+            color: hotpink;
+        }
+
+        div {
+            color: rebeccapurple;
+        }
+
+        .div1 {
+            color: red;
+        }
+
+        .div2 {
+            color: magenta;
+        }
+
+        .div3 {
+            color: gold;
+        }
+        table{
+            border: 2px solid;
+        }
+        td{
+             border: 2px solid;   
+        }
+        th{
+             border: 2px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1 div2 div3" id="aj">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis, soluta asperiores eaque sint totam
+            doloremque numquam ea veritatis distinctio. Aspernatur soluta, voluptas illum quod quasi fuga laudantium
+            odio tempore!
+        </p>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <caption>Specifity Calculation :</caption>
+            </thead>
+            <tr>
+                <th>Selector</th>
+                <th>Points</th>
+            </tr>
+            <tr>
+                <td>Unuversal</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Element</td>
+                <td rowspan="2">1</td>
+            </tr>
+            <tr>
+                <td>Pseudo-elements</td>
+            </tr>
+            <tr>
+                <td>Class</td>
+                <td rowspan="3">10</td>
+            </tr>
+            <tr>
+                <td>Attribute</td>
+            </tr>
+            <tr>
+                <td>Pseudo-class</td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Inline</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>important</td>
+                <td>10000</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
