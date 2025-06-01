@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: #222;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: blue;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+
+        }
+
+        .nav-left {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .nav-right {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-right a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #about {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        #about h2 {
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        #about p {
+            line-height: 1.6;
+            max-width: 900px;
+        }
+
+        #projects{
+            padding: 50px 20px;
+            background-color: #f4ff;
+            color: #333;
+        }
+        #projects h2{
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .project-list{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .project{
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .project a{
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .project a:hover{
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">Ajay Pratap Singh Sengar</div>
+            <div class="nav-right">
+                <a href="">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="">Tetimonials</a>
+                <a href="">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+        <section id="about">
+            <h2>About Me</h2>
+            <p> Hello! I'm Ajay Pratap Singh Sengar, a passionate web developer with a keen interest in creating dynamic
+                and user-friendly websites. I specialize in front-end development and enjoy learning new technologies to
+                enhance my skills.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Interactive Digital Storybook</h3>
+                    <p>A fun and engaging storybook web app for kids using HTML, CSS, and JavaScript.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Gender Classifier</h3>
+                    <p>A multimodal AI project that predicts gender based on names and facial images.</p>
+                    <a href="#">View Project</a>
+                </div>
+                 <div class="project">
+                    <h3>Project - 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis ab sequi harum delectus voluptatem nesciunt, repellendus officia vero doloribus quibusdam itaque cumque autem facere minima labore earum obcaecati nobis.</p>
+                    <a href="#">View Project</a>
+                </div>
+                 <div class="project">
+                    <h3>Project - 4</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum esse enim voluptatum exercitationem nisi dolor voluptates rerum fugit soluta error.</p>
+                    <a href="#">View Project</a>
+                </div>
+                 <div class="project">
+                    <h3>Project - 5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, vero?</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project - 6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi hic, autem aperiam nisi nesciunt eum porro.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+        </section>
+    </body>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
