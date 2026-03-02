@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <h2>Funtion Declaration :</h2>
+    <pre>funtion functionName(arg1, arg2, ..)
+        {
+            statement1;
+            statement2;
+            return ;
+        }
+    </pre>
+
+    <h2>Anonymous function / Epression funtion</h2>
+    <pre>
+        const x = function (a,b){
+            return a*b;
+        }
+    </pre>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        const x = function (a, b){return a*b};
+        document.getElementById("p1").innerHTML="Printing Expression x : "+ x;
+        document.getElementById("p2").innerHTML="Performing Expression x(2,3) : "+ x(2,3);
+        </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing - Style</title>
+</head>
+<body>
+    <h1>JavaScript can change style of HTML ?</h1>
+    <p id="p1">Check Style of this paragraph.</p>
+
+    <button onclick="document.getElementById('p1').style.fontSize='35px'">Change Style</button>
+
+    <h1>JavaScript can also hide content ?</h1>
+    <p  id="p2">This paragraph will be hide by clicking the button.</p>
+
+    <button type="button" onclick="document.getElementById('p2').style.display='none';">Hide!</button>
+
+    <h1>JavaScript can also show hidden content ?</h1>
+    <p  id="p3">This is paragraph.</p>
+    <p id="p4" style="display: none;">This is hidden para.</p>
+
+    <button type="button" onclick="document.getElementById('p4').style.display='block';">Hide!</button>
+</body>
+</html>
